@@ -4,6 +4,6 @@
 // hint.
 
 fn main() {
-    let x: i32;
-    println!("Number {}", x);
+    const x: i32 = 10;
+    println!("Number {}", x + 5);
 }
